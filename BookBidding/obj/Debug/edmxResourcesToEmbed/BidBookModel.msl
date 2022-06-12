@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BiddingDatabaseModel1StoreContainer" CdmEntityContainer="BiddingDatabaseEntities1">
+    <EntitySetMapping Name="BookBids">
+      <EntityTypeMapping TypeName="BiddingDatabaseModel1.BookBid">
+        <MappingFragment StoreEntitySet="BookBid">
+          <ScalarProperty Name="BidID" ColumnName="BidID" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="BidAmount" ColumnName="BidAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
